@@ -255,7 +255,7 @@ module openai 'core/ai/cognitiveservices.bicep' = {
         }
         sku: {
           name: 'Standard'
-          capacity: 100
+          capacity: 20
         }
       }
       {
@@ -265,7 +265,7 @@ module openai 'core/ai/cognitiveservices.bicep' = {
           name: azureOpenAIEmbeddingModelName
           version: '2'
         }
-        capacity: 100
+        capacity: 20
       }
     ]
   }
