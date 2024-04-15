@@ -255,7 +255,7 @@ module openai 'core/ai/cognitiveservices.bicep' = {
         }
         sku: {
           name: 'Standard'
-          capacity: 30
+          capacity: 100
         }
       }
       {
