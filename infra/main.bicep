@@ -265,7 +265,7 @@ module openai 'core/ai/cognitiveservices.bicep' = {
           name: azureOpenAIEmbeddingModelName
           version: '2'
         }
-        capacity: 30
+        capacity: 100
       }
     ]
   }
